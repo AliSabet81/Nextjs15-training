@@ -28,6 +28,7 @@ const Navbar = async () => {
 
                   await signOut({ redirectTo: "/" });
                 }}
+                className="h-6"
               >
                 <button type="submit">
                   <span className="max-sm:hidden">Logout</span>
